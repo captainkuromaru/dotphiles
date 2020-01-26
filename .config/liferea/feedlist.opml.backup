@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<opml version="1.0">
+  <head>
+    <title>Liferea Feed List Export</title>
+  </head>
+  <body>
+    <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="kkpdhqx" sortColumn="time" matchType="any" collapsed="true">
+      <outline type="rule" text="Read status" rule="unread" value="" additive="true"/>
+    </outline>
+    <outline title="TheOldReader" text="TheOldReader" description="TheOldReader" type="source" id="klsuoee" sortColumn="time" sourceType="fl_theoldreader" xmlUrl="http://theoldreader.com/reader" htmlUrl="" updateInterval="-1" expanded="true"/>
+    <outline title="Important" text="Important" description="Important" type="vfolder" id="eoybxwo" sortColumn="time" matchType="any" collapsed="true">
+      <outline type="rule" text="Flag status" rule="flagged" value="" additive="true"/>
+    </outline>
+  </body>
+</opml>
