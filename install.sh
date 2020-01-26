@@ -50,6 +50,12 @@ dnf install liferea
 # install lxpanel
 dnf install lxpanel
 
+# install feh
+dnf install feh
+
+# prepare wallpapers
+cp -R ./wallpapers ~/Pictures/wallpapers
+
 # copy .config dir
 cp -R ./.config ~/.config
 
