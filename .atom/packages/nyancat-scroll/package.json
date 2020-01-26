@@ -1,0 +1,56 @@
+{
+  "_from": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball",
+  "_id": "nyancat-scroll@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-4T6pK3FkY+GVBUYNFta+pjLtodPmJo6wsM6jeSUYH83GGh5BC0vTksUIwqRItIhNGArqvfbRaWLJQhkK14GBQQ==",
+  "_location": "/nyancat-scroll",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball",
+  "_shasum": "46345ab39b3125fe213fe4206a194b44274dcd96",
+  "_spec": "https://www.atom.io/api/packages/nyancat-scroll/versions/1.1.0/tarball",
+  "_where": "/tmp/apm-install-dir-119101-25396-1rrih68.6a89",
+  "bugs": {
+    "url": "https://github.com/AgentAntelope/nyancat-scroll/issues"
+  },
+  "bundleDependencies": false,
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Adds a nyancat scroll progress indicator to the Atom status bar",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/AgentAntelope/nyancat-scroll#readme",
+  "keywords": [
+    "nyancat",
+    "nyan",
+    "cat",
+    "atom",
+    "status bar"
+  ],
+  "license": "MIT",
+  "main": "./lib/nyancat-scroll",
+  "name": "nyancat-scroll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgentAntelope/nyancat-scroll.git"
+  },
+  "version": "1.1.0"
+}
