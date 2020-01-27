@@ -80,10 +80,10 @@ cp ./batpower.sh ~/batpower.sh
 # cp toggle_xcompmgr.sh
 cp ./toggle_xcompmgr.sh ~/toggle_xcompmgr.sh
 
-# setup resolv.conf
-sudo cp /etc/resolv.conf /etc/resolv.conf.bak
-sudo echo "nameserver 104.238.186.189" > /etc/resolv.conf
-sudo echo "nameserver 8.8.8.8" >> /etc/resolv.conf
+# setup resolv.conf // because eff virgin media dns
+sudo cp /etc/resolv.conf /etc/resolv.conf.bak 
+sudo echo "nameserver 104.238.186.189" > /etc/resolv.conf # opennic server
+sudo echo "nameserver 8.8.8.8" >> /etc/resolv.conf # google server just in case
 
 # list what's needed to install manually
 echo "You gotta manually  install: wbar, rtv, gzdoom, atom, keybase, keepass; download: tor"
