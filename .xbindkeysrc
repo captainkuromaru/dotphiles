@@ -71,24 +71,24 @@
 #    m:0x8 + c:32
 
 # Decrease volume
-"pactl set-sink-volume @DEFAULT_SINK@ -1000"
-	m:0x0 + c:122
+#"pactl set-sink-volume @DEFAULT_SINK@ -1000"
+#	m:0x0 + c:122
 
 # Increase volume
-"pactl set-sink-volume @DEFAULT_SINK@ +1000"
-	m:0x0 + c:123
+#"pactl set-sink-volume @DEFAULT_SINK@ +1000"
+#	m:0x0 + c:123
 
 # Mute volume
-"pactl set-sink-mute @DEFAULT_SINK@ toggle"
-	m:0x0 + c:121
+#"pactl set-sink-mute @DEFAULT_SINK@ toggle"
+#	m:0x0 + c:121
 
 # Increase backlight
-"brightlight --file /sys/class/backlight/radeon_bl0/ -i 5"
-	m:0x0 + c:158
+#"brightlight --file /sys/class/backlight/radeon_bl0/ -i 5"
+#	m:0x0 + c:158
 
 # Decrease backlight
-"brightlight --file /sys/class/backlight/radeon_bl0/ -d 5"
-	m:0x0 + c:223
+#"brightlight --file /sys/class/backlight/radeon_bl0/ -d 5"
+#	m:0x0 + c:223
 
 # Open dmenu
 "dmenu_run"
