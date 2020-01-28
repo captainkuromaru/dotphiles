@@ -81,9 +81,23 @@ cp ./batpower.sh ~/batpower.sh
 cp ./toggle_xcompmgr.sh ~/toggle_xcompmgr.sh
 
 # setup resolv.conf // because eff virgin media dns
-sudo cp /etc/resolv.conf /etc/resolv.conf.bak 
-sudo echo "nameserver 104.238.186.189" > /etc/resolv.conf # opennic server
-sudo echo "nameserver 8.8.8.8" >> /etc/resolv.conf # google server just in case
+cp /etc/resolv.conf /etc/resolv.conf.bak 
+echo "nameserver 104.238.186.189" > /etc/resolv.conf # opennic server
+echo "nameserver 8.8.8.8" >> /etc/resolv.conf # google server just in case
+
+# install protonvpn
+dnf install -y openvpn dialog python3-pip python3-setuptools # having pip installed is always handy 
+pip3 install protonvpn-cli
+
+# for backup
+dnf install duplicity
+#add the rest when you prepare configs 'n stuff
+
+# dmenu
+dnf install dmenu
+
+# cp xbindkeys config
+cp ./.xbindkeysrc ~/.xbindkeysrc
 
 # list what's needed to install manually
 echo "You gotta manually  install: wbar, rtv, gzdoom, atom, keybase, keepass; download: tor"
