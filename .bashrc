@@ -12,16 +12,14 @@ then
 fi
 export PATH
 
-export VISUAL="nano"
-
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
 
-alias ports='netstat -tulanp'
-alias reddit='rtv'
-
-fortune | cowsay -f moose.cow
-ddate
-echo ""
+alias describe="sdcv --color"
+alias reddit="sudo rtv"
+alias jarg="curl dict://dict.org/d:$1"
+alias gokgs="java -jar /home/kuromaru/Downloads/cgoban.jar &"
+alias skype="skypeforlinux"
+alias killskype="killall skypeforlinux"
