@@ -19,7 +19,7 @@ export PATH
 
 alias describe="sdcv --color"
 alias reddit="sudo rtv"
-alias jarg="curl dict://dict.org/d:$1"
 alias gokgs="java -jar /home/kuromaru/Downloads/cgoban.jar &"
 alias skype="skypeforlinux"
 alias killskype="killall skypeforlinux"
+alias twitter="rainbowstream"
