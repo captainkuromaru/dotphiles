@@ -99,6 +99,9 @@ dnf install dmenu
 # cp xbindkeys config
 cp ./.xbindkeysrc ~/.xbindkeysrc
 
+# weather script for conky
+cp ./weather.sh ~/weather.sh
+
 # list what's needed to install manually
 echo "You gotta manually  install: wbar, rtv, gzdoom, atom, keybase, keepass; download: tor"
 
