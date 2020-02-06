@@ -31,3 +31,9 @@ xbindkeys &
 
 #Run network manager applet
 nm-applet &
+
+#Run shutter
+#shutter &
+
+#Run RSS client
+liferea &
