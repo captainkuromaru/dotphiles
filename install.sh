@@ -14,44 +14,44 @@ echo "Setting up"
 dnf update
 
 # install nano
-dnf install nano
+dnf install -y nano
 
 # install openbox and the rest
-dnf install openbox tint2 shutter
+dnf install -y openbox tint2 shutter
 
 # install libreoffice
-dnf install libreoffice
+dnf install -y libreoffice
 
 # install thunderbird
-dnf install thunderbird
+dnf install -y thunderbird
 
 #install oneko
-dnf install oneko
+dnf install -y oneko
 
 # install lyx
-dnf install lyx
+dnf install -y lyx
 
 # enable rpm fusion and other stuff (media)
-dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
-dnf install gstreamer
+dnf install -y gstreamer
 dnf groupupdate core
 dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
 dnf groupupdate sound-and-video
-dnf install rpmfusion-free-release-tainted # to play dvd
-dnf install libdvdcss # to play dvd
+dnf install -y rpmfusion-free-release-tainted # to play dvd
+dnf install -y libdvdcss # to play dvd
 
 # install gimp
-dnf install gimp
+dnf install -y gimp
 
 #install liferea
-dnf install liferea
+dnf install -y liferea
 
 # install lxpanel
-dnf install lxpanel
+dnf install -y lxpanel
 
 # install feh
-dnf install feh
+dnf install -y feh
 
 # prepare wallpapers
 cp -R ./wallpapers ~/Pictures/wallpapers
@@ -90,17 +90,23 @@ dnf install -y openvpn dialog python3-pip python3-setuptools # having pip instal
 pip3 install protonvpn-cli
 
 # for backup
-dnf install duplicity
+dnf install -y duplicity
 #add the rest when you prepare configs 'n stuff
 
 # dmenu
-dnf install dmenu
+dnf install -y dmenu
 
 # cp xbindkeys config
 cp ./.xbindkeysrc ~/.xbindkeysrc
 
 # weather script for conky
 cp ./weather.sh ~/weather.sh
+
+# tmux
+dnf install -y tmux
+
+# tmux conf
+cp ./.tmux.conf ~/.tmux.conf
 
 # list what's needed to install manually
 echo "You gotta manually  install: wbar, rtv, gzdoom, atom, keybase, keepass; download: tor"
