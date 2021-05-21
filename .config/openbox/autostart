@@ -37,3 +37,9 @@ nm-applet &
 
 #Run RSS client
 liferea &
+
+# Turn off swap file
+swapoff -a  
+
+# Prevent lockscreen from locking the screen
+nezaspi &
