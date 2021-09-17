@@ -54,40 +54,36 @@ dnf install -y lxpanel
 dnf install -y feh
 
 # prepare wallpapers
-cp -R ./wallpapers ~/Pictures/wallpapers
+cp -R ./wallpapers /home/kuromaru/Pictures/wallpapers
 
 # copy .config dir
-cp -R ./.config ~/.config
+cp -R ./.config /home/kuromaru/.config
 
 #copy conkyrc
-cp ./.conkyrc ~/.conkyrc
-cp ./.conkyrc_openbox ~/.conkyrc_openbox
+cp ./.conkyrc /home/kuromaru/.conkyrc
+cp ./.conkyrc_openbox /home/kuromaru/.conkyrc_openbox
 
 # copy .atom
-cp -R ./.atom ~/.atom
+cp -R ./.atom /home/kuromaru/.atom
 
 # copy .todo
-cp -R ./.todo ~/.todo
+cp -R ./.todo /home/kuromaru/.todo
 
 # copy .nanorc and .bashrc
-cp ./.bashrc ~/.bashrc
-cp ./.bash_profile ~/.bash_profile
-cp ./.nanorc ~/.nanorc
+cp ./.bashrc /home/kuromaru/.bashrc
+cp ./.bash_profile /home/kuromaru/.bash_profile
+cp ./.nanorc /home/kuromaru/.nanorc
 
 # copy batpower.sh
-cp ./batpower.sh ~/batpower.sh
+cp ./batpower.sh /home/kuromaru/batpower.sh
 
 # cp toggle_xcompmgr.sh
-cp ./toggle_xcompmgr.sh ~/toggle_xcompmgr.sh
+cp ./toggle_xcompmgr.sh /home/kuromaru/toggle_xcompmgr.sh
 
 # setup resolv.conf // because eff virgin media dns
 cp /etc/resolv.conf /etc/resolv.conf.bak 
 echo "nameserver 104.238.186.189" > /etc/resolv.conf # opennic server
 echo "nameserver 8.8.8.8" >> /etc/resolv.conf # google server just in case
-
-# install protonvpn
-dnf install -y openvpn dialog python3-pip python3-setuptools # having pip installed is always handy 
-pip3 install protonvpn-cli
 
 # for backup
 dnf install -y duplicity
@@ -97,16 +93,16 @@ dnf install -y duplicity
 dnf install -y dmenu
 
 # cp xbindkeys config
-cp ./.xbindkeysrc ~/.xbindkeysrc
+cp ./.xbindkeysrc /home/kuromaru/.xbindkeysrc
 
 # weather script for conky
-cp ./weather.sh ~/weather.sh
+cp ./weather.sh /home/kuromaru/weather.sh
 
 # tmux
 dnf install -y tmux
 
 # tmux conf
-cp ./.tmux.conf ~/.tmux.conf
+cp ./.tmux.conf /home/kuromaru/.tmux.conf
 
 # list what's needed to install manually
 echo "You gotta manually  install: wbar, rtv, gzdoom, atom, keybase, keepass; download: tor"

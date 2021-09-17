@@ -1,1 +1,0 @@
-{"context-menu":{"atom-text-editor":[{"label":"Toggle nyancat-scroll","command":"nyancat-scroll:toggle"}]},"menu":[{"label":"Packages","submenu":[{"label":"nyancat-scroll","submenu":[{"label":"Toggle","command":"nyancat-scroll:toggle"}]}]}]}
