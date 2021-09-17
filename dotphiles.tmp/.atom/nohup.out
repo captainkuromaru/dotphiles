@@ -1,0 +1,458 @@
+
+(atom:3205): Gtk-WARNING **: 08:14:26.919: Theme parsing error: gtk.css:1037:16: Expected a number
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3545:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3551:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3558:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3563:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3565:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3567:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3572:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3579:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3581:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3585:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3589:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3592:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3598:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3601:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3607:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3610:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.924: Theme parsing error: gtk.css:3612:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3616:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3619:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3621:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3623:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3627:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3632:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3634:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3638:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3642:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3645:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3649:16: 'UnityDecoration' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3663:18: 'UnityDecoration' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3671:20: 'UnityDecoration' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3674:18: 'UnityDecoration' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3679:16: 'UnityPanelWidget' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3684:18: 'UnityPanelWidget' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3688:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3695:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3703:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3709:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3714:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3718:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3721:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3735:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3746:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3753:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3756:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3760:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3765:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3768:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3772:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3776:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3782:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3785:24: 'GraniteWidgetsThinPaned' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3792:22: 'GraniteWidgetsPopOver' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3796:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3800:7: 'toolbar' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3803:9: 'toolbar' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3806:7: 'toolbar' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3812:9: 'toolbar' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.925: Theme parsing error: gtk.css:3815:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3819:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3826:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3829:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3832:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3841:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3848:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3861:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3867:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3872:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3877:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3880:22: 'GraniteWidgetsWelcome' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3883:22: 'GraniteWidgetsWelcome' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3888:22: 'GraniteWidgetsWelcome' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3892:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3895:22: 'GraniteWidgetsPopOver' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3904:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3908:22: 'GraniteWidgetsPopOver' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3912:22: 'GraniteWidgetsXsEntry' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3915:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3918:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3921:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3924:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3929:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3933:11: 'GtkListBox' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3936:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3941:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3943:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3947:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3949:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3951:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3954:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3962:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3970:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3974:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3978:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3982:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3985:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3988:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:3999:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:4003:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:4007:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.926: Theme parsing error: gtk.css:4011:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4016:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4019:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4022:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4026:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4031:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4036:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4042:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4047:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4052:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4058:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4062:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4065:12: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4068:11: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4073:12: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4076:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4080:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4083:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4087:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4092:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4098:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4101:18: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4106:18: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4111:18: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4114:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4117:18: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4120:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4125:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4128:18: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4133:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4137:11: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4141:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4144:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4147:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4150:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4152:6: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4154:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4157:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4165:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4168:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4171:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.927: Theme parsing error: gtk.css:4174:12: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4178:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4181:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4184:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4187:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4190:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4192:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4194:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4197:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4199:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4202:6: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4204:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4207:4: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4210:12: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4214:2: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4218:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4222:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4227:12: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4231:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4233:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4237:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4241:12: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4244:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4248:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4251:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4254:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4257:16: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4260:14: 'filechooser' is not a valid property name
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4264:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4271:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4275:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4279:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4283:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4284:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4285:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4286:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4287:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4288:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4289:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4290:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4291:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4292:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.928: Theme parsing error: gtk.css:4293:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4294:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4295:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4296:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4297:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4298:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4299:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4300:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4301:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4302:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4303:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4304:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4305:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4306:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4307:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4308:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4309:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4310:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4311:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4312:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4313:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4314:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4315:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4316:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4317:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4318:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4319:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4320:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4321:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4322:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4323:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4324:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4325:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4326:0: Expected semicolon
+
+(atom:3205): Gtk-WARNING **: 08:14:26.929: Theme parsing error: gtk.css:4327:0: expected '}' after declarations
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/superstring/build/Release/superstring.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/pathwatcher/build/Release/pathwatcher.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/oniguruma/build/Release/onig_scanner.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-javascript/build/Release/tree_sitter_javascript_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter/build/Release/tree_sitter_runtime_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-jsdoc/build/Release/tree_sitter_jsdoc_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-regex/build/Release/tree_sitter_regex_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-embedded-template/build/Release/tree_sitter_embedded_template_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-html/build/Release/tree_sitter_html_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-css/build/Release/tree_sitter_css_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-c/build/Release/tree_sitter_c_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-cpp/build/Release/tree_sitter_cpp_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-go/build/Release/tree_sitter_go_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-java-dev/build/Release/tree_sitter_java_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-json/build/Release/tree_sitter_json_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-python/build/Release/tree_sitter_python_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-ruby/build/Release/tree_sitter_ruby_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/language-rust-bundled/node_modules/tree-sitter-rust/build/Release/tree_sitter_rust_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-bash/build/Release/tree_sitter_bash_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_tsx_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/tree-sitter-typescript/build/Release/tree_sitter_typescript_binding.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.
+(node:3267) Electron: Loading non-context-aware native module in renderer: '/usr/share/atom/resources/app.asar.unpacked/node_modules/@atom/nsfw/build/Release/nsfw.node'. This is deprecated, see https://github.com/electron/electron/issues/18397.

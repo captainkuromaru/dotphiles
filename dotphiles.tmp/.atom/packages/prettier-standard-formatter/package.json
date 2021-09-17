@@ -1,0 +1,52 @@
+{
+  "_from": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball",
+  "_id": "prettier-standard-formatter@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-Tn4q2hvev95VMUxJc3Slyo/4DajDuKe0wP28rMEP37+b/dKLZe1+QhYHmvKa98lPR3OmnxTywQtqZTJuWbGeLg==",
+  "_location": "/prettier-standard-formatter",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball",
+  "_shasum": "0ff3fa4344ec7b6a3e862c5adce03f02974fe7b0",
+  "_spec": "https://www.atom.io/api/packages/prettier-standard-formatter/versions/0.0.5/tarball",
+  "_where": "/tmp/apm-install-dir-2021816-1187538-1m8pgry.pnx9",
+  "activationCommands": [],
+  "bugs": {
+    "url": "https://github.com/dtinth/atom-prettier-standard-formatter/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "find-root": "^0.1.1",
+    "prettier-standard-formatter": "^0.111111111111111.111111111111111",
+    "process-communication": "^1.1.0"
+  },
+  "deprecated": false,
+  "description": "Format file contents using prettier",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/dtinth/atom-prettier-standard-formatter#readme",
+  "keywords": [
+    "javascript",
+    "formatter"
+  ],
+  "license": "MIT",
+  "main": "./lib/prettier.js",
+  "name": "prettier-standard-formatter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtinth/atom-prettier-standard-formatter.git"
+  },
+  "version": "0.0.5"
+}

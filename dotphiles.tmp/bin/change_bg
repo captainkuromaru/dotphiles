@@ -1,0 +1,16 @@
+#!/usr/bin/python
+
+import time
+import os
+import random
+import sys
+
+def main():
+	dir = "/home/kuromaru/Pictures/wallpapers/dark_wallpapers/"
+	changeBg(dir)
+def changeBg(dir):
+	pic = random.choice(os.listdir(dir))
+	cmd = 'feh --bg-fill '+ '"'+dir+pic+'"'
+	os.system(cmd)
+if __name__ == "__main__":
+	main()

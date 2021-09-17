@@ -1,0 +1,23 @@
+#!/usr/bin/perl -w
+
+if ($#ARGV == -1) {
+    print("Usage: flowercase file ...\n".
+	  "  Rename to lowercase names. Also replace spaces by underscores.");
+    exit(1);
+}
+
+foreach $fn (@ARGV) {
+    $nfn = $fn;
+    $nfn =~ tr!A-Z !a-z_!;
+    if ($nfn eq $fn) {
+	print("$fn: no change.\n");
+    } elsif (-f $nfn) {
+	print("$fn -> $nfn: file already exists.\n");
+    } else {
+	print("$fn -> $nfn\n");
+	rename($fn, $nfn) || print("  $!\n");
+    }
+}
+
+  
+ 

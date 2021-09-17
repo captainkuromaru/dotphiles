@@ -1,0 +1,20 @@
+#!/usr/bin/python
+
+import time
+import os
+import random
+import sys
+
+def main():
+	dir = "./"
+	if (len(sys.argv) > 1):
+		dir = sys.argv[1]
+	playEpisode(dir)
+def playEpisode(dir):
+	if (dir[len(dir)-1] != "/"):
+		dir += "/"
+	ep = random.choice(os.listdir(dir))
+	cmd = 'parole '+ '"'+dir+ep+'" &'
+	os.system(cmd)
+if __name__ == "__main__":
+	main()

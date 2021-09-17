@@ -1,0 +1,92 @@
+// Atom
+// ----------
+// To override certain Atom core styles
+// or customize other packages, use `` to mark
+// custom variables set in ui-variables-custom.less
+// ----------
+// Scrollbars ------------------------------------
+
+.scrollbars-visible-always {
+	::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+	}
+
+	::-webkit-scrollbar-track {
+		background: @scrollbar-background-color;
+	}
+
+	::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		border: 3px solid @scrollbar-background-color;
+		background: @scrollbar-color;
+		background-clip: content-box;
+	}
+
+	::-webkit-scrollbar-corner {
+		background: @scrollbar-background-color;
+	}
+
+	::-webkit-scrollbar-thumb:vertical:active {
+		border-radius: 0;
+		border-left-width: 0;
+		border-right-width: 0;
+	}
+
+	::-webkit-scrollbar-thumb:horizontal:active {
+		border-radius: 0;
+		border-top-width: 0;
+		border-bottom-width: 0;
+	}
+
+	atom-text-editor {
+		::-webkit-scrollbar-track {
+			background: @scrollbar-background-color-editor;
+		}
+
+		::-webkit-scrollbar-corner {
+			background: @scrollbar-background-color-editor;
+		}
+
+		::-webkit-scrollbar-thumb {
+			border-color: @scrollbar-background-color-editor;
+			background: @scrollbar-color-editor;
+		}
+	}
+}
+// Package card meta info = user avater and name
+// make package card meta align to right btns in wide view
+
+.settings-view {
+	.package-card {
+		.meta {
+			align-items: center;
+		}
+	}
+}
+// `indent-guide-improved`
+
+.indent-guide-improved {
+	background-color: @indent-guide-improved;
+
+	&.indent-guide-stack {
+		background-color: @indent-guide-stack;
+
+		&.indent-guide-active {
+			background-color: @indent-guide-active;
+		}
+	}
+}
+// `vim-mode-plus`
+
+.vim-mode-plus-search-container {
+	padding: @component-padding / 2;
+
+	div {
+		padding: 0;
+
+		&.editor-container {
+			padding-left: @component-padding / 4;
+		}
+	}
+}

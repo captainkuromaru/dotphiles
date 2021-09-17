@@ -1,0 +1,48 @@
+{
+  "_from": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball",
+  "_id": "atom-disapproval@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-FbsyMA1UFC5D1dz5i1pUUvV9uPPFgr9aXwHhgGSrnCZp1chAXIqFVdmhadSdEsp9qf+0AlV9HV/5j7pqoow7Tw==",
+  "_location": "/atom-disapproval",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball",
+  "_shasum": "8bfed50b8f60a9ff01c23038836d7cd7b9031f63",
+  "_spec": "https://www.atom.io/api/packages/atom-disapproval/versions/0.2.0/tarball",
+  "_where": "/tmp/apm-install-dir-2021816-2146811-fjntzj.jkj1u",
+  "activationEvents": [
+    "atom-disapproval:ಠ_ಠ"
+  ],
+  "bugs": {
+    "url": "https://github.com/dvg/atom-disapproval/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A variety of helpers for inserting the look of disapproval",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/dvg/atom-disapproval#readme",
+  "license": "MIT",
+  "main": "./lib/atom-disapproval",
+  "name": "atom-disapproval",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvg/atom-disapproval.git"
+  },
+  "snippets": [
+    "disapp"
+  ],
+  "version": "0.2.0"
+}
