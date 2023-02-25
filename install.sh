@@ -53,6 +53,9 @@ dnf install -y lxpanel
 # install feh
 dnf install -y feh
 
+# instal pdf readrr
+dnf install -y atril
+
 # prepare wallpapers
 cp -R ./wallpapers /home/kuromaru/Pictures/wallpapers
 
@@ -62,9 +65,6 @@ cp -R ./.config /home/kuromaru/.config
 #copy conkyrc
 cp ./.conkyrc /home/kuromaru/.conkyrc
 cp ./.conkyrc_openbox /home/kuromaru/.conkyrc_openbox
-
-# copy .atom
-cp -R ./.atom /home/kuromaru/.atom
 
 # copy .todo
 cp -R ./.todo /home/kuromaru/.todo
@@ -82,8 +82,7 @@ cp ./toggle_xcompmgr.sh /home/kuromaru/toggle_xcompmgr.sh
 
 # setup resolv.conf // because eff virgin media dns
 cp /etc/resolv.conf /etc/resolv.conf.bak 
-echo "nameserver 104.238.186.189" > /etc/resolv.conf # opennic server
-echo "nameserver 8.8.8.8" >> /etc/resolv.conf # google server just in case
+# add stuff later
 
 # for backup
 dnf install -y duplicity
@@ -104,7 +103,11 @@ dnf install -y tmux
 # tmux conf
 cp ./.tmux.conf /home/kuromaru/.tmux.conf
 
+# copy bin directory
+cp -r ./bin/* /home/kuromaru/bin/
+
 # list what's needed to install manually
-echo "You gotta manually  install: wbar, rtv, gzdoom, atom, keybase, keepass; download: tor"
+echo "You gotta manually  install: wbar, gzdoom, keybase, keepass, tor"
 
 echo "Done"
+

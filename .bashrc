@@ -15,11 +15,13 @@ export PATH
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
+PS1="[\u🐙@\H \W]\$ "
+
 # User specific aliases and functions
 
 alias describe="sdcv --color"
 alias reddit="sudo rtv"
 alias gokgs="java -jar /home/kuromaru/Downloads/cgoban.jar &"
-alias skype="skypeforlinux"
-alias killskype="killall skypeforlinux"
 alias twitter="rainbowstream"
+alias dadhowdoi="apropos"
+alias pdfreader="atril"
