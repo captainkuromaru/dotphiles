@@ -1,9 +1,7 @@
 # Programs that will run after Openbox has started
 
 # Set the wallpaper
-feh --bg-center ~/Pictures/wallpapers/wallhaven-nrd3wq.jpg &
-
-# Run a Composite manager
+/home/kuromaru/bin/random_bg.sh &
 
 # SCIM support (for typing non-english characters)
 #scim -d &
@@ -15,7 +13,9 @@ tint2 &
 #~/bin/wbar.sh
 
 # Run Conky
-conky -c /home/kuromaru/.conkyrc_openbox &
+#conky -c /home/kuromaru/.conkyrc_openbox &
+conky -c /home/kuromaru/conky.conf &
+conky -c /home/kuromaru/.conky_todorc &
 
 #Run xflux for Edinburgh
 /bin/xflux -l 55.953 -g 3.189 &
@@ -36,10 +36,37 @@ nm-applet &
 #shutter &
 
 #Run RSS client
-liferea &
+#liferea &
+quiterss &
+# fraidycat
+#/home/kuromaru/bin/Fraidycat-1.1.7.AppImage &
 
 # Turn off swap file
 swapoff -a  
 
 # Prevent lockscreen from locking the screen
-nezaspi &
+/home/kuromaru/bin/nezaspi &
+
+# Picom
+picom &
+
+# Keyboard layouts and indicator
+setxkbmap -layout "gb,us,sk" -option "grp:alt_shift_toggle" &
+gxkb &
+
+# Restore wal scheme
+#wal -R
+
+# Check for updates
+#/home/kuromaru/bin/chkupd &
+
+# pulseaudio
+xfce4-volumed-pulse &
+
+# thunderbird and needed stuff for protonmail emails
+protonmail-bridge &
+thunderbird &
+
+
+# pidgin
+pidgin &
