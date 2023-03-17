@@ -1,9 +1,9 @@
 #! /bin/bash
 
 ##############################
-# install.sh 		     #
-# version 0.1		     #
-#			     #
+# install.sh 		     	 #
+# version 0.2		     	 #
+#			     			 #
 # Gotta add the rest         #
 ##############################
 
@@ -17,7 +17,10 @@ dnf update
 dnf install -y nano
 
 # install openbox and the rest
-dnf install -y openbox tint2 shutter
+dnf install -y openbox tint2
+
+# install shutter for screenshots
+dnf install -y shutter
 
 # install libreoffice
 dnf install -y libreoffice
@@ -44,16 +47,13 @@ dnf install -y libdvdcss # to play dvd
 # install gimp
 dnf install -y gimp
 
-#install liferea
-dnf install -y liferea
-
-# install lxpanel
-dnf install -y lxpanel
+#install quiterss
+dnf install -y quiterss
 
 # install feh
 dnf install -y feh
 
-# instal pdf readrr
+# instal pdf reader
 dnf install -y atril
 
 # prepare wallpapers
@@ -63,8 +63,10 @@ cp -R ./wallpapers /home/kuromaru/Pictures/wallpapers
 cp -R ./.config /home/kuromaru/.config
 
 #copy conkyrc
-cp ./.conkyrc /home/kuromaru/.conkyrc
-cp ./.conkyrc_openbox /home/kuromaru/.conkyrc_openbox
+#cp ./.conkyrc /home/kuromaru/.conkyrc
+#cp ./.conkyrc_openbox /home/kuromaru/.conkyrc_openbox
+cp ./conky.conf /home/kuromaru/conky.conf
+cp ./.conky_todorc /home/kuromaru/.conky_todorc
 
 # copy .todo
 cp -R ./.todo /home/kuromaru/.todo
@@ -79,10 +81,6 @@ cp ./batpower.sh /home/kuromaru/batpower.sh
 
 # cp toggle_xcompmgr.sh
 cp ./toggle_xcompmgr.sh /home/kuromaru/toggle_xcompmgr.sh
-
-# setup resolv.conf // because eff virgin media dns
-cp /etc/resolv.conf /etc/resolv.conf.bak 
-# add stuff later
 
 # for backup
 dnf install -y duplicity
@@ -107,7 +105,7 @@ cp ./.tmux.conf /home/kuromaru/.tmux.conf
 cp -r ./bin/* /home/kuromaru/bin/
 
 # list what's needed to install manually
-echo "You gotta manually  install: wbar, gzdoom, keybase, keepass, tor"
+echo "You gotta manually  install: wbar, gzdoom, keybase, keepass, tor, the protonmail thingy, xflux"
 
 echo "Done"
 
