@@ -63,10 +63,9 @@ gxkb &
 # pulseaudio
 xfce4-volumed-pulse &
 
-# thunderbird and needed stuff for protonmail emails
+# thunderbird and stuff needed for protonmail emails
 protonmail-bridge &
 thunderbird &
-
 
 # pidgin
 pidgin &
