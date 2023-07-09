@@ -1,9 +1,9 @@
 #! /bin/bash
 
 ##############################
-# install.sh 		     	 #
-# version 0.2		     	 #
-#			     			 #
+# install.sh 		     #
+# version 0.2		     #
+#			     #
 # Gotta add the rest         #
 ##############################
 
@@ -11,16 +11,10 @@
 echo "Setting up"
 
 # update system
-dnf update
+dnf update -y
 
 # install nano
 dnf install -y nano
-
-# install openbox and the rest
-dnf install -y openbox tint2
-
-# install shutter for screenshots
-dnf install -y shutter
 
 # install libreoffice
 dnf install -y libreoffice
@@ -31,16 +25,16 @@ dnf install -y thunderbird
 #install oneko
 dnf install -y oneko
 
-# install lyx
-dnf install -y lyx
+# install lynx
+dnf install -y lynx
 
 # enable rpm fusion and other stuff (media)
 dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 dnf install -y gstreamer
-dnf groupupdate core
-dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin
-dnf groupupdate sound-and-video
+dnf groupupdate core -y
+dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
+dnf groupupdate sound-and-video -y
 dnf install -y rpmfusion-free-release-tainted # to play dvd
 dnf install -y libdvdcss # to play dvd
 
@@ -63,8 +57,6 @@ cp -R ./wallpapers /home/kuromaru/Pictures/wallpapers
 cp -R ./.config /home/kuromaru/.config
 
 #copy conkyrc
-#cp ./.conkyrc /home/kuromaru/.conkyrc
-#cp ./.conkyrc_openbox /home/kuromaru/.conkyrc_openbox
 cp ./conky.conf /home/kuromaru/conky.conf
 cp ./.conky_todorc /home/kuromaru/.conky_todorc
 
@@ -90,7 +82,7 @@ dnf install -y duplicity
 dnf install -y dmenu
 
 # cp xbindkeys config
-cp ./.xbindkeysrc /home/kuromaru/.xbindkeysrc
+#cp ./.xbindkeysrc /home/kuromaru/.xbindkeysrc
 
 # weather script for conky
 cp ./weather.sh /home/kuromaru/weather.sh
@@ -105,7 +97,7 @@ cp ./.tmux.conf /home/kuromaru/.tmux.conf
 cp -r ./bin/* /home/kuromaru/bin/
 
 # list what's needed to install manually
-echo "You gotta manually  install: wbar, gzdoom, keybase, keepass, tor, the protonmail thingy, xflux"
+echo "You gotta manually  install: keepass, tor, the protonmail thingy"
 
 echo "Done"
 
