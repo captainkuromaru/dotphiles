@@ -1,0 +1,6 @@
+#!/bin/sh
+# play youtube videos in mpv, if it's already running kill it and start it again
+if pgrep mpv &> /dev/null ; then killall mpv ; fi
+# best quality video and audo possible, turn on english subs, open in small window in right bottom corner
+mpv --ytdl-format='bestvideo[height<=?360]+bestaudio[height<=?360]' --slang=en --geometry=380+100%+100% --ontop $1 &> /dev/null  &
+
