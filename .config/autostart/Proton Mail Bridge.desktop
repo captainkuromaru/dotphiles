@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Proton Mail Bridge
+Exec=bash -c "sleep 5 && '/usr/lib/protonmail/bridge/proton-bridge' '--no-window' "
+X-GNOME-Autostart-enabled=true
+Comment=
+RunHook=0
+
