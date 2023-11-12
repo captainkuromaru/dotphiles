@@ -1,0 +1,27 @@
+#!/bin/sh
+# Backup script for storagebox using rclone
+# Date of creation: 2023-11-12
+
+# Today's date for filename
+DATE=$(date '+%Y-%m-%d')
+
+# notify the backup starts
+notify-send --urgency=normal -i ~/Pictures/warning.png "Backup of bifrost is starting."
+
+# Compress and encrypt the home directory.
+# Get saved passphrase from a file for encryption.
+# Read list of files and directories to exclude from exclude.txt file
+echo "Creating the encrypted backup file"
+tar -cz -X ~/exclude.txt ~ | gpg -c -o /usr/tmp/backup/$DATE.tar.gz.gpg --batch --passphrase-file ~/passw.txt
+
+# Copy the file to storagebox
+echo "Sending files"
+rclone copy /usr/tmp/backup/$DATE.tar.gz.gpg storagebox_BACKUP:backup
+
+# Add the date of backup to log
+echo $DATE >> ~/log/hetzner_backup.log
+
+# Remove the backup file to save space.
+echo "Deleting the backup file form this machine to save space."
+rm /usr/tmp/backup/$DATE.tar.gz.gpg
+echo "Done!"
