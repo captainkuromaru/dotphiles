@@ -21,7 +21,9 @@ PS1="[\u🐙@\H \W]\$ "
 
 alias describe="sdcv --color"
 alias reddit="sudo rtv"
-alias gokgs="java -jar /home/kuromaru/Downloads/cgoban.jar &"
-alias twitter="rainbowstream"
 alias dadhowdoi="apropos"
 alias pdfreader="atril"
+alias youtube="sh ~/bin/yt"
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
