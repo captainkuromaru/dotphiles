@@ -1,20 +1,21 @@
 #!/bin/sh
 # Backup script for storagebox using rclone
 # Date of creation: 2023-11-12
+# Last modified: 2023-11-14
 
 # PATHS
-BACKUP_DIR=
-HOME_DIR=
+BACKUP_DIR='/usr/tmp/backup'
+HOME_DIR='/home/kuromaru'
 
 cd $BACKUP_DIR
 
-# In case of prior script interruption.
-if [ -f $BACKUP_DIR/$DATE ]; then
-	rm $BACKUP_DIR/$DATE.tar.gz.gpg
-fi
-
 # Today's date for filename
 DATE=$(date '+%Y-%m-%d')
+
+# In case of prior script interruption.
+if [ -f $BACKUP_DIR/$DATE.tar.gz.gpg ]; then
+	rm $BACKUP_DIR/$DATE.tar.gz.gpg
+fi
 
 # Notify the user we're starting to backup the computer
 notify-send --urgency=normal -i $HOME_DIR/Pictures/warning.png "Backup of bifrost is starting."
@@ -27,7 +28,7 @@ tar -cz -X $HOME_DIR/exclude.txt $HOME_DIR | gpg -c -o $BACKUP_DIR/$DATE.tar.gz.
 
 # Copy the file to storagebox encrypted (double encrypted? why? doesn't make sense)
 echo "Sending files"
-rclone copy $BACKUP_DIR/$DATE.tar.gz.gpg storagebox:
+rclone copy /usr/tmp/backup/$DATE.tar.gz.gpg storagebox
 
 # Add the date of backup to log
 echo $DATE >> $HOME_DIR/log/hetzner_backup.log
